@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+/*
+Paleta de Cores
+
+Roxo Escuro: #140B24
+Marrom: #7F5F5D
+Claro: #E5ECF4
+
+TDB:
+
+Até 768px
+P/ Cel e pequenas telas
+
+De 769px a 1200px
+P/ tablets e Desktops
+
+Acima de 1201px
+Para telas grandes
+*/
+
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body{
+        background-image: linear-gradient(to top, #140B24,#7F5F5D);
+    }
+    section#ilogin{
+        width: 80vw;
+    }
+
+    section#ilogin div#iimagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+        background-position: center top;
+    }
+
+    section#ilogin div#iform{
+        float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 993px) {
+    body{
+        background-image: linear-gradient(to top, #140B24,#7F5F5D,#E5ECF4 );
+    }
+
+    section#ilogin{
+        width: 950px;
+    }
+    
+    section#ilogin div#iimagem{
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+    section#ilogin div#iform{
+        float: right;
+        width: 50%;
+    }
+}

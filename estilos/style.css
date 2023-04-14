@@ -18,7 +18,7 @@ Claro: #E5ECF4
 }
 
 body, html{
-    background-color: #7F5F5D;
+    background-color: #684d4c;
     height: 100vh;
     width: 100vw;
 }
@@ -41,6 +41,10 @@ section#ilogin{
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.493);
+
+    transition: width 0.3s, height 0.1s;
+    transition-timing-function: ease;
+
 }
 
 section#ilogin div#iimagem{
