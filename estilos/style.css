@@ -29,7 +29,7 @@ main{
     width: 100vw;
 }
 
-section#ilogin{
+section#login{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -37,7 +37,7 @@ section#ilogin{
     overflow: hidden;
 
     background-color: white;
-    width: 250px;
+    width: 255px;
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.493);
@@ -47,23 +47,23 @@ section#ilogin{
 
 }
 
-section#ilogin div#iimagem{
+section#login div#imagem{
     display: block;
     background: #7F5F5D url(../imagens/enter_building.jpg) no-repeat;
     background-size: cover;
     height: 200px;
 }
 
-section#ilogin div#iform{
+section#login div#form{
     display: block;
     padding: 10px;
 }
 
-div#iform h1{
+div#form h1{
     text-align: center;
     margin-bottom: 10px;
 }
 
-div#iform p{
+div#form p{
     font-size: 0.8em;
 }
