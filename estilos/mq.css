@@ -27,6 +27,7 @@ Para telas grandes
     }
     section#login{
         width: 80vw;
+        height: 280px;
     }
 
     section#login div#imagem{
@@ -42,14 +43,8 @@ Para telas grandes
     }
 
     div.campo  input{
-        background-color: #acb8c4;
-        font-size: 1em;
-        width: calc(90%);
+        width: calc(89%);
         transform: translateY(-12px);
-        height: 100%;
-        border: 0px;
-        border-radius: 8px;
-        padding: 4px;
     }
 }
 
@@ -60,12 +55,14 @@ Para telas grandes
 
     section#login{
         width: 950px;
+        height: 350px;
     }
     
     section#login div#imagem{
         float: right;
         width: 50%;
         height: 100%;
+        background-position: center top;
     }
     section#login div#form{
         float: left;
@@ -76,7 +73,8 @@ Para telas grandes
         font-size: 2em;
     }
     div#form p{
-        font-size: 1.2em;
+        font-size: 1em;
+        margin: 20px 0px;
     }
 
     div.campo  input{
