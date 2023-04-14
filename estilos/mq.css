@@ -23,7 +23,7 @@ Para telas grandes
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body{
-        background-image: linear-gradient(to top, #140B24,#7F5F5D);
+        background-image: linear-gradient(to bottom, #140B24,#7F5F5D);
     }
     section#ilogin{
         width: 80vw;
@@ -44,7 +44,7 @@ Para telas grandes
 
 @media screen and (min-width: 993px) {
     body{
-        background-image: linear-gradient(to top, #140B24,#7F5F5D,#E5ECF4 );
+        background-image: linear-gradient(to bottom, #140B24,#7F5F5D,#E5ECF4 );
     }
 
     section#ilogin{
